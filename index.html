@@ -4,12 +4,12 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, width=device-width">
         <title>
-            Metron Lee
+            April Fool
         </title>
     </head text-align="center">
         <style>
             h1 {
-                font-size:150pt;
+                font-size: x-large;
                 font-weight: bold;
             }
             body {
@@ -22,12 +22,15 @@
                 color: #ff6347; /* Tomato color */
             }
             p {
+                text-align: center;
                 font-size: 1.2em;
             }
         </style>
         <h1>Fool!</h1>
         <img src="Rickroll.gif" alt="Rick Roll" width="500" height="500">
-        <audio autoplay loop>
+        <br>
+        <iframe src="250-milliseconds-of-silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+        <audio id="player" autoplay controls>
             <source src="Rickroll.mp3" type="audio/mp3">
         </audio>
         <p>You've been Rickrolled!</p>
